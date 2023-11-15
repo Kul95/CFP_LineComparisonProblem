@@ -15,6 +15,10 @@ public class LineComparision {
         //equals method
         System.out.println("Equals method: "+str1.equals(str2));
         System.out.println();
+
+        //CompareTo method
+        System.out.println("CompareTo method : "+str1.compareTo(str2));
+        System.out.println();
     }
     public  static  double lengthMethod(int x1,int x2,int y1,int y2){
         double length3=Math.sqrt(((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1)));
